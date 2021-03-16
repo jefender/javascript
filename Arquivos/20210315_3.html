@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Script e Imagens</title>
+</head>
+<body>
+    <script src="20210315_3.js"></script>
+    
+        <select name="selectCorona" id="corona">
+            <option value="Paciente sem contato">Não teve contato</option>
+            <option value="Paciente contaminado" selected>Foi contaminado</option>
+            <option value="Paciente imunizado">Está imunizado</option>
+        </select>
+
+        <button id="btnCorona" onclick="testeCorona(corona)">Valide seu teste</button>
+        <img src="20210315_img/doente.png" alt="Vacina" width="150" height="150" id="imgCorona">
+    
+</body>
+</html>
